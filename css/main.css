@@ -267,6 +267,7 @@ footer .copyright {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -458,7 +459,7 @@ About Page
   margin-bottom: 50px;
 }
 
-faq-content h4 {
+.faq-content h4 {
   line-height: 1.333;
 }
 
@@ -562,7 +563,7 @@ faq-content h4 {
 
      h2 {
        font-size: 2.25em;
-       line-height: 1.15;
+       line-height: 1.333;
      }
 
      h3 {
@@ -623,7 +624,7 @@ faq-content h4 {
 
       aside .content-wrapper .form-description,
       aside .content-wrapper .form {
-        width: 40%;
+        width: 35%;
         margin: 0;
       }
 
@@ -710,6 +711,10 @@ faq-content h4 {
         width: 45%;
       }
 
+      .map figure {
+        padding-bottom: 45.5%;
+      }
+
       .contact-section .content-wrapper h2 {
         width: 80%;
       }
@@ -786,7 +791,7 @@ faq-content h4 {
 
      aside .content-wrapper .form-description,
      aside .content-wrapper .form {
-       width: 30%;
+       width: 40%;
      }
 
      .form-description p {
@@ -820,6 +825,10 @@ faq-content h4 {
     
      /* =========== About Page ================*/
 
+     .map figure {
+       padding-bottom: 37.5%;
+     }
+        
      .mission h2,
      .contact-section .content-wrapper h2 {
        width: 95%;
